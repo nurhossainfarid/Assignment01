@@ -1,19 +1,27 @@
 body {
     margin: 0px auto;
     padding: 0px;
-    width: 991px;
     background-color: #fff;
 }
 h1 {
     font-size: 55px;
     color: #383441;
 }
+h2 {
+    font-size: 45px;
+    color: #383441;
+}
+
 p {
     font-size: 17px;
     color: #383441;
 }
 a {
     text-decoration: none;
+}
+#set-width {
+    width: 991px;
+    margin: 0 auto;
 }
 /* about-myfocus section style-------------------------------------------------------*/
 .half-width {
@@ -63,10 +71,7 @@ a {
     border-radius: 5px;
 }
 /* My Mission Section ------------------------------------------------*/
-#mission-info {
-
-}
-#mission-info h1 {
+.mission-h1 {
     text-align: center;
 }
 #mission-info span {
@@ -98,7 +103,69 @@ a {
     background-color:#FDE2E2;
 }
 #myGoal {
-    background-color: orange;
+    background-color: #fff6de;
 }
+#develop-myself {
+    margin-top: 80px;
+}
+#develop-myself .img {
+    width: 45%;
+}
+#develop-item {
+    margin-left: 5%;
+    width: 50%;
+}
+#myteam {
+    margin-top: 80px;
+}
+#myteam .img {
+    width: 35%;
+    margin-left: 10%;
+}
+#team-item {
+    margin-right: 5%;
+    width: 60%;
+}
+#bg-absolute {
+    position: absolute;
+    left: 180px;
+    width: 220px;
+    height: 220px;
+    z-index: -1;
+    top: 1220px;
+}
+#bg-absolute2 {
+    position: absolute;
+    right: 180px;
+    width: 220px;
+    height: 220px;
+    z-index: -1;
+    top: 1920px;
+}
+
+
+/* footer section */
+#footer {
+    background-color: #000;
+    text-align: center;
+}
+#footer h1 {
+    padding-top: 30px;
+    font-style: italic;
+    color: #fff;
+    font-size: 35px;
+}
+#footer span { 
+    font-style: normal;
+    color: rgb(246 143 38);
+}
+#footer p {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+
+
+
 
 
