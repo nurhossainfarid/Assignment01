@@ -13,7 +13,7 @@ h2 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
     color: #383441;
 }
 a {
@@ -137,14 +137,31 @@ a {
 #bg-absolute2 {
     position: absolute;
     right: 180px;
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     z-index: -1;
     top: 1920px;
 }
 
+/* skills section ------------------------------------*/
+#about-skills {
+    margin-top: 120px;
+}
+#about-skills h1 {
+    text-align: center;
 
-/* footer section */
+    margin-bottom: 60px;
+}
+#about-skills span {
+    color: orange;
+}
+#skills-info img {
+    width: 100%;
+    margin-top: -100px;
+}
+
+
+/* footer section ----------------------------------*/
 #footer {
     background-color: #000;
     text-align: center;
